@@ -1,0 +1,134 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 28px !important;
+    color: darkgray !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+h2 {
+    font-size: 26px !important;
+}
+
+h5 {
+    font-weight: normal !important;
+    font-size: 14px  !important;
+    color: darkgray  !important;
+}
+
+.main {
+    margin: 16px 32px;
+}
+
+.menu {
+   /* background-color: lightblue;*/
+    margin-bottom: 0;
+}
+
+ul.menu {
+    list-style: none;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+.menu-header ,
+.menu-footer {
+
+}
+
+.menu-header a:link, .menu-header a:visited{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.menu-header a:hover, .menu-header a:active {
+    color: #af1515;
+    text-decoration: none;
+}
+
+.menu-header {
+    font-size: 28px;
+    border-bottom: 3px solid darkgray;
+    /*box-shadow: 2px 0px 5px darkgray;*/
+    height: 45px;
+}
+
+.menu-header li {
+    padding: 0 16px;
+}
+
+.menu-header li:first-of-type {
+    padding-left: 0;
+}
+
+.menu-header li:last-of-type {
+    padding-right: 0;
+}
+
+.current-menu-item a:link, .current-menu-item a:visited {
+    color: #af1515;
+}
+
+.menu-footer a:link {
+    text-decoration: none;
+}
+
+.menu-footer a:link, .menu-footer a:visited {
+    color : darkgray;
+}
+
+.menu-footer a:hover, .menu-footer a:active {
+    color: #af1515;
+}
+
+.menu-footer li:after {
+    content: ' | ';
+    color: darkgray;
+}
+
+.menu-footer li:last-of-type:after {
+    content: '';
+}
+
+.post {
+    border-bottom: 1px solid darkgray;
+}
+
+.post:last-of-type {
+    border-bottom: none;
+}
+
+.info-box {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #eee;
+    padding: 16px;
+    margin: auto;
+    width: 50%;
+}
+
+.post-info a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.post-info a:hover, .post-info a:active {
+    text-decoration: underline;
+}
+
+.search-form {
+    float: right;
+    font-size: 16px;
+    padding: 8px 8px;
+}
+
+.nav-links {
+    float: left;
+}
